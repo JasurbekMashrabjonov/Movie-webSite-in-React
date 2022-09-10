@@ -3,7 +3,7 @@
 Web-site qurishda OMDb API <a href="http://www.omdbapi.com/" target="_blank">http://www.omdbapi.com</a> dan foydalinildi.
 <pre>
 Loyihaning asosiy vaizfasi:
-    - <h2>Qidiruv tizimi</h2>ga ega ekanligi:
+    - <b>Qidiruv tizimi</b>ga ega ekanligi:
         Ya'ni API-dan kelgan ma'lumotlarini saralab ularning <i><b>nomi</b></i> va <b><i>turi</b></i> bo'yicha sa'ralay olishi yoki qidiruv natijasi.
 </pre>
 
