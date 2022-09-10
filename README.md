@@ -10,7 +10,7 @@ Loyihaning asosiy vaizfasi:
 <p>Loyihada <b>redux</b>, <b>redux-thunk</b>, <b>react-router-dom</b>dan foydalinilmagan</p>
 
 <h5>Loyiha muallifi:Jasurbek Mashrabjonov</5>
-
+## Siteni ko'rish: <a href="https://movie-inreactjs.netlify.app/">https://movie-inreactjs.netlify.app/</a>
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
