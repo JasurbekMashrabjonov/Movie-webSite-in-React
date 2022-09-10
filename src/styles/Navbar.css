@@ -1,0 +1,213 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+.site{
+    width: 100%;
+    min-height: 150vh;
+    background-color:rgb(99, 82, 174);
+}
+.navbar{
+    display: block;
+    position: relative;
+    /* width: 100%; */
+    /* position: fixed;
+    top:0;
+    left:0;
+    right:0; */
+    background:#0a136ffb;
+    box-shadow: 0 5px 10px rgba(249, 249, 249, 0.51);
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    width: 100%;
+    padding: 0px 7%;
+    z-index: 100;
+ 
+
+}
+
+.navbar .logo{
+    color:#fff;
+    font-size: 25px;
+    padding-left:60px;
+    letter-spacing: 3px;
+    font-weight: bolder;
+}
+.navbar nav ul li{
+    position: relative;
+    float: left;
+} 
+.navbar nav ul li a{
+    display: block;
+      border-left:1px solid #999;
+    /* background-color:rgb(115, 112, 112); */
+    padding:20px ;
+    color: #fff;
+    font-size: 22px;
+    border-bottom:1px solid #0a136ffb
+
+}
+.navbar nav ul li a:hover{
+    background:hsla(0, 0%, 93%, 0.861);
+    border-bottom:1px solid rgb(8, 248, 36);
+}
+.active{
+    background-color:#eee !important;  
+    color:#0a136ffb !important;
+}
+.noActive{
+    background-color:#0a136ffb !important;  
+
+}
+nav ul li ul {
+    position: absolute;
+    left: 0px;
+    width: 200px;
+    background:#1f2a8ae6;
+    display: none;
+}
+nav ul li ul li{
+    width: 100%;
+    border-top: 1px solid #999;
+}
+nav ul li:focus-within>ul,
+nav ul li:hover > ul {
+    display: initial;
+}
+#menu_bar{
+    display: none;
+}
+label{
+    display: none;
+    font-size: 1.5em;
+    font-family: cursive;
+    color:snow;
+    cursor: pointer;
+    padding: 20px;
+}
+/*  ----------up --------------- */
+.up {
+    padding: 15px;
+    background:#0a136ffb;
+    border-radius:20px;
+    position: fixed;
+    bottom: 5vh;
+    right: 2vh;
+    color:#fff;
+    cursor:pointer;
+    z-index: 10000;
+}
+
+
+/*  ------------Maxsus imkoniyatlar divi */
+
+.imkoniyatlar{
+    display: flex;
+    padding: 5px;
+    position: absolute;
+    z-index: 2;
+    top:70px;
+    right: 10%;
+    width: 400px;
+    height: 40px;
+    background:#0a136ffb;
+    border-radius:10px;
+    border-top-right-radius: 0px;
+    display: none;
+}
+#eye:checked ~ .imkoniyatlar{
+    display: block;
+} 
+.imkon_p{
+    width: 40px ;
+    text-align: center;
+    border: 1px solid #eee !important;
+    padding: 0  !important;
+    margin: 0 !important;
+    cursor:pointer;
+    border-radius:5px;
+    
+}
+.dark{
+    color:white;
+    background:black;
+}
+.light{
+    color:black !important;
+    background:#fff;
+}
+#eye:checked ~ .imkoniyatlar{
+    display: initial;
+}
+/* --------------------------------        ------------------------- */
+@media (max-width:1200px) {
+    .navbar{
+        padding: 0px 3% !important;
+    }
+    .logo{
+        padding-left: 10px !important;
+    }
+    
+}
+@media (max-width:1000px) {
+
+    label{
+        display:block;
+    }
+    .navbar{
+        padding: 0px 3% !important;
+        font-size: 17px;
+
+    }
+    .logo{
+        padding-left: 10px !important;
+    }
+    .navbar nav{
+        background-color:#0a136ffb;  
+        position: absolute;
+        top:100%;
+        left:0px;
+        right: 0px;
+        display: none;
+    }
+    nav ul li{
+        width: 100%;
+    }
+    nav ul li ul{
+        width: 100%;
+        position: relative;
+    }
+    nav ul li ul li a{
+        border:0.1px solid #eee !important;
+    }
+    nav ul li a{
+        border-top:1px solid #eee !important;
+        border-left:none !important; 
+        border-bottom:none !important; 
+    }
+    a:hover{
+        border:none !important; 
+    }
+    #menu_bar:checked ~ nav{
+        display: initial;
+    } 
+}
+@media (max-width:700px){
+    .menu_name{
+        display: none;
+    }
+    
+}
+.input_a{
+   padding: 17px 0px !important;
+    cursor:auto;
+}
+.input_a:hover{
+    background-color:initial !important;
+}
+
+

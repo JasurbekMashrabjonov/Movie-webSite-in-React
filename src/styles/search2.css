@@ -1,0 +1,26 @@
+    input{
+        font-size: 18px;
+        padding:7px 3px;
+        border:none;
+        text-indent: 10px;
+        outline: none;
+        background-color:#0a136ffb;
+        color:#fff;
+        border-bottom:1px solid #8289ddfb;
+
+    }
+    input[placeholder]{
+        color:#fff !important;
+    }
+    input:focus{
+        border-bottom:1px solid #fff;
+    }
+    button{
+        padding: 5px;
+        border:none;
+        outline: none;
+        background-color:green;
+        cursor:pointer;
+        color:#fff;
+        margin-right: 5px !important;
+    }
