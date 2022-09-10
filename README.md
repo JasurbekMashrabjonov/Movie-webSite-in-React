@@ -3,11 +3,13 @@
 Web-site qurishda OMDb API <a href="http://www.omdbapi.com/" target="_blank">http://www.omdbapi.com</a> dan foydalinildi.
 <pre>
 Loyihaning asosiy vaizfasi:
-    - <b>Qidiruv tizimi</b>ga ega ekanligi:
-        Ya'ni API-dan kelgan ma'lumotlarini saralab ularning <i><b>nomi</b></i> va <b><i>turi</b></i> bo'yicha sa'ralay olishi yoki qidiruv natijasi.
+  -<b>Qidiruv tizimi</b>ga ega ekanligi:
+     Ya'ni, API-dan kelgan ma'lumotlarini <i><b>nomi</b></i> va <b><i>turi</b></i> bo'yicha sa'ralay olishi yoki qidiruv natijasi.
 </pre>
 
+<p>Loyihada <b>redux</b>, <b>redux-thunk</b>, <b>react-router-dom</b>dan foydalinilmagan</p>
 
+<h5>Loyiha muallifi:Jasurbek Mashrabjonov</5>
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
