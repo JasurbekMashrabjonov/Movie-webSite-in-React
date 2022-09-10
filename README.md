@@ -1,4 +1,6 @@
-# Getting Started with Create React App
+# Ushbu web-site React kutubxonasi yordamida qurildi.
+
+Web-site <a href="`http://www.omdbapi.com/">http://www.omdbapi.com</a>
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
